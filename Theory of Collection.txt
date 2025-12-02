@@ -1,0 +1,63 @@
+    Theory of Collection
+    //  Object class is parent of all classes
+    // Everything in java is Object
+    // We need to manage manuplate Object
+    //Collection is  DS Core Logic used on object so we dont need to write boiler code  again and again
+    /* 
+    Collection -->
+    A Collection represent Single Unit of Objects
+    Framework -->
+    To Specific task , we require specific class, interface, functions
+    So we put all Pre-Written Codes  like class,function,interface inside one place called Framework
+    Framework is body contain pre written code in whichwe can add our code to overcome the problem of reusability
+    
+    Modules -> atomic task /set of method ar function ready to use anywhere
+    packages -> collection of modules /
+    library -> collection of packages
+    Framework -> collection of Library + gives Architectural Style i.e call, define,declare
+    
+    
+    Framework --> Library --> Packages -->Modules
+    
+    
+    */
+
+    
+    /*
+    Iterable is base Interfave 
+    
+    Collection Interface extend Iterable Interface
+    
+    all sub-interface extend Collection Framework
+    
+    */
+    /*
+    Common Methods used by collection Interface
+    
+    1.size()
+    2.isEmpty()
+    3.clear()
+    add(element)
+    addAll(Collection)
+    contains(element)
+    containsAll(Collection)
+    remove(element)
+    removeAll(element)
+    iterator()
+    toArray()
+    
+
+       
+    Common method of Iterator Interface
+    
+    hasnext()  Overridden 
+    next()     Overridden
+    remove()
+    
+    Iterable 
+    Iterator()
+    return type is Iteractor
+    
+    
+    
+    */
